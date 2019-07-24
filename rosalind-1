@@ -1,6 +1,6 @@
 f = open("rosalind_dna.txt", "r") 
 
-s = f.readlines().strip()
+s = f.readline().strip()
 
 nucleotides = {"A":0, "C":0, "G":0, "T":0}
 
