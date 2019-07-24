@@ -17,4 +17,4 @@ for i in s:
 print(nucleotides["A"], end=" ")
 print(nucleotides["C"], end=" ")
 print(nucleotides["G"], end=" ")
-print(nucleotides["T"], end="")
+print(nucleotides["T"])
