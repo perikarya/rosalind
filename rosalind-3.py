@@ -1,10 +1,13 @@
+''' complementing a strand of DNA: given a DNA string s of max length 1000 bp, returns the reverse complement sc of s
+'''
+
 f = open("rosalind_revc.txt", "r") 
 
 s = f.readline().strip()
 
 r = s[::-1]
 
-rc = ""
+sc = ""
 
 for i in r:
     if i == "A":
@@ -16,4 +19,4 @@ for i in r:
     elif i == "C":
         rc += "G"
         
-print(rc)
+print(sc)
