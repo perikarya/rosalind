@@ -26,7 +26,6 @@ with open("rosalind_gc.txt") as dataFile:
         for char in sequence:
             if char == "G" or char == "C":
                 gc_bases += 1
-        print("here", gc_bases)
         gc_proportion = gc_bases / total_bases * 100
         gc_content[label] = gc_proportion
 
