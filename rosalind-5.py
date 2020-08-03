@@ -7,9 +7,10 @@ with open("rosalind_gc.txt") as dataFile:
 
     dataset = []
 
-    for line in data[1:]:
+    for line in data:
         line = line.replace("\n", "")
-        dataset.append(line)
+        if line != "":
+            dataset.append(line)
 
     dict = {}
 
