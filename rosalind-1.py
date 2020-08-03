@@ -1,3 +1,6 @@
+''' counting DNA nucleotides: given a DNA string of max length 1000 nt, returns four integers (separated by spaces) counting the respective number of times that the nucleotides 'A', 'C', 'G', and 'T' occur in the sequence
+'''
+
 f = open("rosalind_dna.txt", "r") 
 
 s = f.readline().strip()
