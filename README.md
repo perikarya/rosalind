@@ -1,6 +1,7 @@
 # rosalind
 code for <a href="http://rosalind.info">project rosalind</a>
 
+<u>python scripts for bioinformatics</u>
 <ul>
   <li><a href="https://github.com/perikarya/rosalind/blob/master/rosalind-1.py">counting number of each type of base in a string of DNA</a></li>
   <li><a href="https://github.com/perikarya/rosalind/blob/master/rosalind-2.py">transcribing DNA into RNA</a></li>
