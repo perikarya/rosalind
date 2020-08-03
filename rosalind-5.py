@@ -30,4 +30,4 @@ with open("rosalind_gc.txt") as dataFile:
         gc_proportion = gc_bases / total_bases * 100
         gc_content[label] = gc_proportion
 
-    print(max(gc_content, key=gc_content.get), "\n",max(gc_content.values()))
+    print(max(gc_content, key=gc_content.get), "\n", max(gc_content.values()))
