@@ -7,7 +7,7 @@ s = f.readline().strip()
 
 r = s[::-1]
 
-sc = ""
+rc = ""
 
 for i in r:
     if i == "A":
@@ -19,4 +19,4 @@ for i in r:
     elif i == "C":
         rc += "G"
         
-print(sc)
+print(rc)
