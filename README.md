@@ -11,6 +11,5 @@ code for <a href="http://rosalind.info">project rosalind</a>
   <li><a href="https://github.com/perikarya/rosalind/blob/master/rosalind-6.py">calculating the hamming distance between two strands of DNA</a></li>
   <li><a href="https://github.com/perikarya/rosalind/blob/master/rosalind-8.py">translating RNA into its corresponding amino acid sequence</a></li>
   <li><a href="https://github.com/perikarya/rosalind/blob/master/rosalind-13.py">calculating the total mass of a protein based on its amino acid sequence</a></li>
-</ul>
   <li><a href="https://github.com/perikarya/rosalind/blob/master/rosalind-15.py">calculating the number of possible mRNA sequences, mod 1,000,000, for a given amino acid sequence</a></li>
 </ul>
